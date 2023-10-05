@@ -388,3 +388,28 @@ a {}
 .translation__inner-content-stars {
   margin-bottom: 14px;
 }
+
+.integrate {
+  margin-top: 169px;
+}
+
+.integrate__inner {
+  text-align: center;
+}
+
+.integrate__inner-title {
+font-size: 65px;
+font-weight: 600;
+line-height: 75px;
+margin: 0;
+width: 790px;
+}
+
+.integrate__inner-text {
+
+font-size: 25px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 25px;
+
+}
