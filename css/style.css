@@ -307,12 +307,13 @@ a {}
   background-color: #C9E8F2;
   padding-top: 63px;
   padding-bottom: 105px;
+  margin: 0;
 }
 
 .article__inner {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
 }
 
 .article__review {
@@ -331,4 +332,59 @@ a {}
   font-weight: 400;
   line-height: 25px;
   margin-bottom: 7px;
+}
+
+.translation {
+  background-color: #DABC98;
+  padding-top: 69px;
+  padding-bottom: 80px;
+
+
+}
+
+.translation__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.translation__inner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 809px;
+}
+
+
+
+
+.translation__inner-content-img {
+  margin-right: auto;
+  display: inline-block;
+}
+
+.translation__inner-content-title {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 50px;
+  margin-left: 67px;
+}
+
+.translation__inner-content-prog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 481px;
+  border-left: 1px solid #000000;
+}
+
+.translation__inner-content-prog--item {
+  margin-left: 70px;
+}
+
+.translation__inner__prog {
+  margin-bottom: 20px;
+}
+
+.translation__inner-content-stars {
+  margin-bottom: 14px;
 }
