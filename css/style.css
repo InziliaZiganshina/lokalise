@@ -9,8 +9,6 @@
   font-display: swap;
 }
 
-
-
 @font-face {
   font-family: 'Graphik';
   src: local('Graphik Semi bold'), local('Graphik-Semi-bold'),
@@ -62,7 +60,7 @@ body {
   list-style: none;
 }
 
-.menu__list-item + .menu__list-item {
+.menu__list-item+.menu__list-item {
   margin-left: 42px;
 }
 
@@ -90,7 +88,7 @@ body {
   text-decoration: none;
 }
 
-.user-nav__link + .user-nav__link {
+.user-nav__link+.user-nav__link {
   margin-left: 10px;
   border-color: transparent;
   background-color: #FF6336;
@@ -116,13 +114,12 @@ body {
 }
 
 .top__text {
-  font-weight: 400;  
+  font-weight: 400;
   font-size: 25px;
   line-height: 35px;
   margin-bottom: 30px;
   max-width: 471px;
 }
-
 
 .top__btn {
   display: inline-block;
@@ -135,23 +132,47 @@ body {
 }
 
 .top__link {
-color: #000000;
-font-size: 16px;
-font-weight: 600;  
-line-height: 45px;
-padding: 10px 20px;
-border: 1px solid #BCD0E5;
-border-radius: 1px;
-text-decoration: none;
-
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 45px;
+  padding: 10px 20px;
+  border: 1px solid #BCD0E5;
+  border-radius: 1px;
+  text-decoration: none;
 }
 
 .top__add {
   margin-top: 25px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
 
-font-size: 15px;
-font-weight: 400;
-line-height: 25px;
+.localization {
+  background-color: #FF9C7D;
+}
+
+.localization__inner {
+  margin-top: 147px;
+  margin-bottom: 100px;
+  padding-top: 98px;
+  padding-bottom: 94px;
+  text-align: center;
+}
+
+.localization__title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  max-width: 720px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 70px;
+}
 
 
+.localization__comp {
+  display: flex;
+  justify-content: space-between;
 }
