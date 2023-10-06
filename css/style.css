@@ -403,6 +403,9 @@ font-weight: 600;
 line-height: 75px;
 margin: 0;
 width: 790px;
+
+margin: auto;
+text-align: center;
 }
 
 .integrate__inner-text {
@@ -413,3 +416,24 @@ line-height: 30px;
 margin-bottom: 25px;
 
 }
+
+.integrate__inner-img {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.integrate__inner-link {
+
+  color: #FFFFFF;
+ text-decoration: none;
+ padding: 23px;
+ background-color: #FF6336;
+ border-color: transparent;
+border: none;
+font-size: 16px;
+font-weight: 600;
+line-height: 60px;
+cursor: pointer;
+
+}
+
