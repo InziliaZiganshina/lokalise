@@ -436,5 +436,39 @@ a {}
   font-weight: 600;
   line-height: 60px;
   cursor: pointer;
+}
+
+.easylocal {
+  background-color: #FF9C7D;
+  padding: 161px 253px;
+  text-align: center;
+
+}
+
+.easylocal__title {
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 75px;
+  width: 784px;
+  margin: auto;
+}
+
+.easylocal__text {
+  margin-top: 29px;
+  margin-bottom: 54px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.easylocal__link {
+  border-color: transparent;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 60px;
+  padding: 15px 41px 14px;
+  text-decoration: none;
 
 }
