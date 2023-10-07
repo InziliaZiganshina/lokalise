@@ -20,7 +20,6 @@
   font-display: swap;
 }
 
-
 * {
   box-sizing: border-box;
 }
@@ -33,8 +32,6 @@ body {
   margin: 0;
   color: #000000;
 }
-
-a {}
 
 .container {
   max-width: 1440px;
@@ -128,7 +125,6 @@ a {}
   color: #FFFFFF;
   background-color: #FF6336;
   padding: 10px 20px;
-  ;
   margin-right: 10px;
   border: none;
   cursor: pointer;
